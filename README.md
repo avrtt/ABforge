@@ -44,7 +44,7 @@ Besides importing directly, you can also interact with some parts of the library
 streamlit run Home.py
 ```
 
-Below you can discover all released methods of the library.
+Below you can discover all the implemented methods of the library.
 
 ## Description
 
