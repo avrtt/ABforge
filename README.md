@@ -1,5 +1,7 @@
 **ABforge** is an A/B testing library designed for a variety of use cases, utilizing the Bayesian approach to implement different variables and tests, including binary, Poisson, normal, delta-lognormal and discrete tests on different metrics. It's especially useful for analysing key metrics in marketplaces, such as conversion rates, ticket size, ARPU differences between test variants, etc.
 
+The main idea of this library is to create an all-in-one tool for running A/B tests separately from closed-source code and business logic.
+
 ## Installation
 
 Clone & navigate:
