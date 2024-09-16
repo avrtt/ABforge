@@ -76,7 +76,7 @@ There are also five classes for experiments:
 - `DiscreteDataTest`
 
 ⚠️ **These classes are currently in the process of being integrated into the library engine.**
-     <br>
+     <br><br>
 
 For each class, there are two methods for inserting data:
 
