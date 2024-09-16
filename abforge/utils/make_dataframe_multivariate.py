@@ -85,7 +85,7 @@ def create_per_user_dataframe_multivariate(
                     0, not_converted
                 )
 
-            # Generate dataframes
+            # generate dataframes
             data_converted = {
                 "alternative": alternative_converted,
                 "user_id": user_id_converted,
@@ -105,7 +105,6 @@ def create_per_user_dataframe_multivariate(
             data_not_converted.update(conversion_values_per_user_not_converted)
             df_not_converted = pd.DataFrame(data=data_not_converted)
 
-            # Gather
             df_period = pd.concat([df_converted, df_not_converted], axis=0)
             df = pd.concat([df, df_period], axis=0)
 

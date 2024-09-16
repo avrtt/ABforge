@@ -13,26 +13,25 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-st.set_page_config(page_title="ABforge: all-in-one Bayesian A/B testing", page_icon="")
+st.set_page_config(page_title="All-in-one Bayesian A/B testing", page_icon="")
 
 st.markdown(
     """
 # All-in-one Bayesian A/B testing
 
-**[ABforge](https://github.com/avrtt/ABforge)** is a tool to automate your decisions in A/B test experiments with two alternatives, where 
-you want to know which one is better. It's focused on conversion and revenue evaluation, typical in e-commerce, and uses Bayesian statistics to achieve faster and more insightful results. 
+**[ABforge](https://github.com/avrtt/ABforge)** is a tool to automate your decisions in A/B test experiments with two alternatives, where you want to know which one is better. It's focused on conversion and revenue evaluation, typical in e-commerce, and uses Bayesian statistics to achieve faster and more insightful results. 
 
 No sample size is obligatory, since you can get partial results and make decisions, but feel free to estimate it to have an idea.
 
 The engine is more powerful than common online websites because it measures statistics for 3 variables at once: 
 - conversion rate
-- value for conversions (e.g. revenue, cost, time spent on page, etc.) 
+- value for conversions (e.g. revenue, cost, time spent on page, etc.)
 - average value per impression (e.g. Average Revenue per User, Cost Per User, etc.)
 
 """
 )
 
-st.markdown("""## Implemented pages""")
+st.markdown("""## Available pages""")
 
 st.markdown(
     """

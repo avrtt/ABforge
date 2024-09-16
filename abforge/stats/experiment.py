@@ -1,6 +1,3 @@
-# Databricks notebook source
-# COMMAND ----------
-
 from typing import Any, Dict, Iterator, List, Optional, Text
 from abforge.stats.constants import MAX_ROUND_DIGITS, SAMPLE_SIZE, BOOSTRAP_SAMPLES
 from abforge.stats.metrics import (

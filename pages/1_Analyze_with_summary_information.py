@@ -20,7 +20,7 @@ st.markdown(
     """
 # A/B testing using summary information
 
-This is the most simple approach to analyze your A/B Test. Just input these summary information and wait for calculations:
+This is the most simple approach to analyze your A/B test. Just input these summary information and wait for calculations:
 
 - **total impressions in control/treatment**: total of participants in each variant;
 - **total conversions in control/treatment**: total of conversions in each variant;
@@ -70,7 +70,7 @@ if submit_button:
     df = pd.DataFrame(
         data={
             "alternative": ["control", "treatment"],
-            "exposure_period": ["2022-01-01"] * 2,  # hacking, not to be used
+            "exposure_period": ["2022-01-01"] * 2,  # not to be used
             "exposures": [control_impressions, test_impressions],
             "conversions": [control_conversions, test_conversions],
             "total_value": [control_total_value, test_total_value],
@@ -90,7 +90,7 @@ if submit_button:
         # lib's revenue col to monetary values
         df_per_user_simulated = df_per_user_simulated.rename(
             columns={"converted": "sales", "total_value": "revenue"}
-        )  # hacking, sales are generic conversions in abforge lib
+        )  # sales are generic conversions in abforge lib
         experiment = Experiment(
             name=experiment_name,
             keymetrics=["conversion", "revenue", "arpu"],
