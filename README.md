@@ -500,5 +500,5 @@ Finally, we can plot the posterior distribution for each state for each variant.
 Feel free to open PRs and issues.
 
 ## License
-Distributed under the Apache 2.0 License. See LICENSE.txt for more information.
+Distributed under the MIT License. See LICENSE.txt for more information.
 
