@@ -94,8 +94,9 @@ WIP
 - [x] Add references
 - [ ] Add images
 - [ ] Add logo (Streamlit page & README)
-- [x] Merge with test/metrics classes (not a part of the engine yet) 
+- [ ] Merge with test/metrics classes (not a part of the base engine yet) 
 - [ ] Create toy dfs (tests/make_data.py)
+- [ ] Add new tests and metrics to Streamlit app
 
 ## References
 - [Wikipedia: A/B testing](https://en.wikipedia.org/wiki/A/B_testing)
